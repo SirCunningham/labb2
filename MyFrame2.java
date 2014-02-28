@@ -6,8 +6,8 @@ import java.awt.*;
 
 public class MyFrame2 implements ActionListener {
 
-    private JFrame myFrame;
-    private MyButton2 myButton;
+    private final JFrame myFrame;
+    private final MyButton2 myButton;
 
     public MyFrame2() {
         myFrame = new JFrame();
